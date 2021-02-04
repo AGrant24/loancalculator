@@ -1,0 +1,65 @@
+* {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2rem;
+}
+body {
+  background-color: rgb(174, 222, 235);
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  margin-top: 25px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  /* width: 50vw; */
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.loanAmount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.loanTerm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.calcButton {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#calcButton {
+  margin-left: 5px;
+}
+
+#resetButton {
+  margin-left: 5px;
+}
+
+.evaluation {
+  margin-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
