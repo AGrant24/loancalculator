@@ -10,9 +10,9 @@ body {
 
 .calculator {
   margin-top: 25px;
-  background-color: whitesmoke;
+  background-color: white;
   border-radius: 20px;
-  /* width: 50vw; */
+  width: 50vw;
   justify-content: center;
   align-items: center;
   padding-left: 25px;
@@ -62,4 +62,26 @@ body {
   margin-top: 25px;
   text-align: center;
   vertical-align: middle;
+}
+
+/* Plus and Minus for amount */
+.minusButton {
+  cursor: pointer;
+}
+.minusButton:active {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+/* Hide input default arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
